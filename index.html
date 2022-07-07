@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project List Tracker</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Project List Tracker</header>
+    <div class="projectListWrapper">
+      <h1>Project List</h1>
+      <ul class="projectList">
+      </ul>
+      <form>
+        <button type="button" class="projectBtn">+</button>
+        <input
+          type="text"
+          id="addProjectInput"
+          placeholder="new project name"
+         
+        />
+      </form>
+    </div>
+
+    <div class="taskListWrapper">
+      <div class="header">
+        <h2></h2>
+        <p>0 tasks remaining!</p>
+      </div>
+
+      <div class="todolist">
+        <div class="taskList">
+        
+        </div>
+
+      
+      </div>
+      <form class="taskForm">
+        <button type="button" class="taskBtn">+</button>
+        <input type="text" id="taskInput" placeholder="new task name" />
+      </form>
+     
+
+      <div class="clearButtons">
+      <button type="button" class="clearTasks">Clear Completed Tasks</button>
+      <button type="button" class="deleteProject">Delete Project</button>
+    </div>
+    </div>
+   
+    
+  </body>
+</html>
