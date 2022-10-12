@@ -214,4 +214,9 @@ input[type='checkbox']:checked + label {
     gap: 25px;
     margin-bottom: 25px;
   }
+
+  .taskListWrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
